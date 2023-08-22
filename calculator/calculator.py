@@ -18,3 +18,8 @@ def sub(a, b):
 def multiply(a, b):
     result = a * b
     print(str(a) + " * " + str(b) + " = " + str(result))
+
+# Def division function
+def divide(a, b):
+    result = a / b
+    print(str(a) + " / " + str(b) + " = " + str(result))
