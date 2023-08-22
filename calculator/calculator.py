@@ -28,3 +28,10 @@ def prompt_user():
     a = int(input("Enter first number:"))
     b = int(input("Enter second number:"))
     return a, b
+
+def main():
+    choice_list = {"A": "Addition", 
+                   "B":"Substraction", 
+                   "C":"Multiplication", 
+                    "D": "Division", 
+                    "E":"Exit"}
