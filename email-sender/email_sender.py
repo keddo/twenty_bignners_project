@@ -13,3 +13,11 @@ email_password = password
 
 # Set the email receiver
 receiver = "example@gmail.com"
+
+# Main subject of the email
+subject = "Please follow me on github/linkedin/twitter"
+
+# Body of the email
+body = """
+    Let's connect each other to create influence and level up.
+"""
