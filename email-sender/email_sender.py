@@ -21,3 +21,10 @@ subject = "Please follow me on github/linkedin/twitter"
 body = """
     Let's connect each other to create influence and level up.
 """
+
+# Create an instance of email message object
+em = EmailMessage()
+em['from'] = sender
+em['to'] = receiver
+em['subject'] = subject
+em.set_content(body)
