@@ -35,3 +35,7 @@ def main():
                    "C":"Multiplication", 
                     "D": "Division", 
                     "E":"Exit"}
+    while True:
+        for key, value in choice_list.items():
+            print(key, value, sep=":")
+        choice = input("Enter your choice (A, B, C, D, E): ").upper()
