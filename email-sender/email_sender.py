@@ -28,3 +28,10 @@ em['from'] = sender
 em['to'] = receiver
 em['subject'] = subject
 em.set_content(body)
+
+# Create ssl context
+context = ssl.create_default_context()
+
+with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
+    smtp.login(sender, password)
+    smtp.sendmail(sender, receiver, em.as_string())
