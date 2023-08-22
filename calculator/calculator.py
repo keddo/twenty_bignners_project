@@ -23,3 +23,8 @@ def multiply(a, b):
 def divide(a, b):
     result = a / b
     print(str(a) + " / " + str(b) + " = " + str(result))
+
+def prompt_user():
+    a = int(input("Enter first number:"))
+    b = int(input("Enter second number:"))
+    return a, b
