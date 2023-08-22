@@ -6,3 +6,7 @@ from email.message import EmailMessage
 from password import password
 import ssl
 import smtplib
+
+# Set the of the email and it's password
+sender = "adu.kedir.abdurahman@gmail.com"
+email_password = password
