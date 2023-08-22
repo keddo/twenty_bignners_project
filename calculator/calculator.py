@@ -57,3 +57,4 @@ def main():
                     print("Divide by zero error") 
             case "E":
                 break
+main()
