@@ -13,3 +13,8 @@ def add(a, b):
 def sub(a, b):
     result = a - b
     print(str(a) + " - " + str(b) + " = " + str(result))
+
+# Def multiplication function
+def multiply(a, b):
+    result = a * b
+    print(str(a) + " * " + str(b) + " = " + str(result))
