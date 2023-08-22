@@ -39,3 +39,21 @@ def main():
         for key, value in choice_list.items():
             print(key, value, sep=":")
         choice = input("Enter your choice (A, B, C, D, E): ").upper()
+        match choice:
+            case "A":
+                a, b = prompt_user()
+                add(a, b)
+            case "B":
+                a, b = prompt_user()
+                sub(a, b)
+            case "C":
+                a, b = prompt_user()
+                multiply(a, b) 
+            case "D":
+                a, b = prompt_user()
+                if b > 0:
+                   divide(a, b)
+                else:
+                    print("Divide by zero error") 
+            case "E":
+                break
